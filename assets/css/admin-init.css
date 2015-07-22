@@ -1,0 +1,14 @@
+div#Testimonial_Text {
+  margin-top: -4rem;
+}
+textarea#swt_testimonial_text {
+  width: 100%;
+}
+.welcome-panel-content form label.description{
+	font-style: italic;
+	font-size: 10px;
+}
+
+label{
+	font-style: italic;
+}
