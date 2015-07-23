@@ -11,7 +11,6 @@ blockquote
     position: relative;
     quotes: none; 
     border: none !important;
-    font-size: 120%;
     line-height: 200%;
     font-size: 1.5rem !important;
     text-align: justify;
@@ -31,7 +30,7 @@ blockquote
 
 .bx-wrapper {
   position: relative;
-  margin: 0 auto 60px;
+  margin: 0 auto 25px;
   padding: 0;
   *zoom: 1;
 }
