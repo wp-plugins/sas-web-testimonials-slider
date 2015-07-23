@@ -11,13 +11,14 @@ SAS WEB testimonial slider is responsive slider implemented using bxslider. It h
 
 Why should I use this slider?
 <ul>
-<li>-- Fully responsive - will adapt to any device</li>
-<li><li>-- Horizontal, vertical, and fade modes</li>
-<li>-- Slides can contain images, video, or HTML content</li>
-<li>-- Advanced touch / swipe support built-in</li>
-<li>-- Uses CSS transitions for slide animation (native hardware acceleration!)</li>
-<li>-- Small file size, fully themed, simple to implement</li>
-<li>-- Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+</li>
+<li>Fully responsive - will adapt to any device</li>
+<li>Horizontal, vertical, and fade modes</li>
+<li>Slides can contain images, video, or HTML content</li>
+<li>Advanced touch / swipe support built-in</li>
+<li>Uses CSS transitions for slide animation (native hardware acceleration!)
+</li>
+<li>Small file size, fully themed, simple to implement</li>
+<li>Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+</li>
 </ul>
 
 == Installation ==
