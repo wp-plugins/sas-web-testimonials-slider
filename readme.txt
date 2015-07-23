@@ -10,14 +10,15 @@ Create Fully responsive testimonial slider, and widgets in an elegant way. It ha
 SAS WEB testimonial slider is responsive slider implemented using bxslider. It has widget area to place slider in sidebar or any other widget area. Configuration can be done from settings page. 
 
 Why should I use this slider?
--- Fully responsive - will adapt to any device
--- Horizontal, vertical, and fade modes
--- Slides can contain images, video, or HTML content
--- Advanced touch / swipe support built-in
--- Uses CSS transitions for slide animation (native hardware acceleration!)
--- Small file size, fully themed, simple to implement
--- Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
-
+<ul>
+<li>-- Fully responsive - will adapt to any device</li>
+<li><li>-- Horizontal, vertical, and fade modes</li>
+<li>-- Slides can contain images, video, or HTML content</li>
+<li>-- Advanced touch / swipe support built-in</li>
+<li>-- Uses CSS transitions for slide animation (native hardware acceleration!)</li>
+<li>-- Small file size, fully themed, simple to implement</li>
+<li>-- Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+</li>
+</ul>
 
 == Installation ==
 Installation from zip:
@@ -50,9 +51,9 @@ Yes, You can email me at @itsmeskm99@gmail.com
 For more slider settings stuff, visit http://bxslider.com/faqs
 
 == Screenshots ==
-1. Widget Area
-2. Setting page
-3. Front End
+1. testimonial_settings.png
+2. widget_area.png
+3. testimonial_body.png
 
 == Upgrade Notice ==
 Please upgrade to use full functionality of the plugin. 
