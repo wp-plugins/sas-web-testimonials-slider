@@ -3,7 +3,7 @@
  * Plugin Name: SAS WEB Testimonials Slider
  * Plugin URI: htp://www.skmukhiya.com.np
  * Description: Create Fully responsive testimonial slider, and widgets in an elegant way
- * Version: 1.0
+ * Version: 1.1
  * Author: Suresh KUMAR Mukhiya
  * Author URI: http://upwork.com/users/~0182e0779315e50896
  * Tags: Testimonial Slider, customizable slider, testimonial slider, responsive testimonial slider
