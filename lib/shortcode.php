@@ -82,20 +82,20 @@
 					);
 					$categories=get_categories( $args );
 					
-
-
-					//die();
-
+					$fontsize = get_option('swt_testimonial_options')['testimonial_font_size'];
+					if(!empty($fontsize)){
+						$fontsize = intval($fontsize);
+					}
 						echo '<li>';
 							echo '<blockquote>';
-								echo '<div class="testimonial-img">';
+								echo '<div class="aligncenter testimonial-img size-medium">';
 								
 								if ( has_post_thumbnail() ) { 
 									the_post_thumbnail( 'square-400' ); 
 								}	
 								
 								echo '</div>';
-								echo '<p class="testimonial-text">'.$testimonial.'</p>';
+								echo '<p class="testimonial-text" style="font-size:'.$fontsize.'px;">'.$testimonial.'</p>';
 								echo '<p class="author-name">-'.get_the_title().'</p>';
 								
 							echo '</blockquote>';

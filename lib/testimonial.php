@@ -103,6 +103,15 @@
 						</td>
 					</tr>
 
+					<tr valign="top">	
+						<th scope="row" valign="top">
+							<?php _e('Testimonial Text Font Size', 'swt_testimonial'); ?>
+						</th>
+						<td>
+							<input id="swt_testimonial_options[testimonial_font_size]" name="swt_testimonial_options[testimonial_font_size]" class="regular-text" type="text" value="<?php if (!empty($swt_testimonial_options['testimonial_font_size'])) echo $swt_testimonial_options['testimonial_font_size']; ?>"/>
+							<label class="description" for="swt_testimonial_options[testimonial_font_size]"><?php _e('px , Enter Font Size(Only Number.).', 'swt_testimonial'); ?></label>
+						</td>
+					</tr>
 				</tbody>
 			</table>	
  

@@ -69,7 +69,7 @@ class SASWEB_Testimonials
 		echo '<div id="welcome-panel" class="welcome-panel">';
 		settings_errors(); 
 		echo '<div class="welcome-panel-content"><h3>Customize Testimonial Display</h3>';
-		echo '<p class="about-description">Check the <a href="#">instructions</a> page for detailed implementations.</p>';
+		echo '<p class="about-description">Check the <a href="http://www.skmukhiya.com.np/sas-web-testimonials-slider/">instructions</a> page for detailed implementations.</p>';
 		$testimoni = new Testimonial;
 		$testimoni->swt_testimonial_setting_form();
 		echo '</div>';	
@@ -265,6 +265,7 @@ class SASWEB_Testimonials
 		$input['start_slider_random'] = sanitize_text_field( $input['start_slider_random'] );
 		$input['infinite_loop'] = sanitize_text_field( $input['infinite_loop'] );
 		$input['hide_control_on_end'] = sanitize_text_field( $input['hide_control_on_end'] );
+		$input['testimonial_font_size'] = sanitize_text_field( $input['testimonial_font_size'] );
 		return $input;
 	}
 
