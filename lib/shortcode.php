@@ -82,7 +82,8 @@
 					);
 					$categories=get_categories( $args );
 					
-					$fontsize = get_option('swt_testimonial_options')['testimonial_font_size'];
+					$fontsize = get_option('swt_testimonial_options');
+					$fontsize= $fontsize['testimonial_font_size'];
 					if(!empty($fontsize)){
 						$fontsize = intval($fontsize);
 					}
